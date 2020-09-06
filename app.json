@@ -1,0 +1,78 @@
+{
+  "name": "OtoMyTelegramBot",
+  "description": "APP ID'nizi ve API HASH'inizi Telegram'dan alın",
+  "keywords": [
+    "telegram",
+    "best",
+    "app",
+    "scrapper",
+    "3"
+  ],
+  "repository": "https://github.com/BristolMyers/OtoMyTelegramBot",
+  "success_url": "https://telegram.dog/BristolMyersAdvert",
+  "website": "https://github.com/BristolMyers/OtoMyTelegramBot",
+  "env": {
+    "WEBHOOK": {
+      "description": "Bunu HERHANGİ BİR ŞEY olarak ayarlamak, env modundayken web kancalarını etkinleştirir",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Bir dizge olarak bot jetonunuz.",
+      "value": ""
+    },
+    "URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": "https://example.com/"
+    },
+    "PORT": {
+      "description": "Web kancalarınız için kullanılacak bağlantı noktası",
+      "value": "5000"
+    },
+    "APP_TITLE": {
+      "description": "özel bir uygulama başlığı belirtin",
+      "required": false
+    },
+    "APP_SHORT_NAME": {
+      "description": "özel bir alfanümerik kısa ad belirtin (5-32 karakter)",
+      "required": false
+    },
+    "APP_URL": {
+      "description": "özel bir uygulama URL'si belirtin",
+      "required": false
+    },
+    "APP_DESCRIPTION": {
+      "description": "özel bir uygulama açıklaması belirtin",
+      "required": false
+    },
+    "FTEXT": {
+      "description": "son düzenlemeden sonra bot mesajında ​​görünecek altbilgi metni",
+      "required": false
+    },
+    "START_TEXT": {
+      "description": "Telegram botunun başlangıç ​​metni",
+      "required": false
+    },
+    "AFTER_RECVD_CODE_TEXT": {
+      "description": "kullanıcıdan kodu almadan önce görüntülenmesi gereken mesaj",
+      "required": false
+    },
+    "BEFORE_SUCC_LOGIN": {
+      "description": "kodu aldıktan sonra ve doğrulamalardan önce görüntülenecek geçici bir mesaj",
+      "required": false
+    },
+    "ERRED_PAGE": {
+      "description": "** asla ** oluşmayacak ama hala var olan bir dizge?",
+      "required": false
+    },
+    "CANCELLED_MESG": {
+      "description": "gösterilmesi gereken bir mesaj / iptal",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
