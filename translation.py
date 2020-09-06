@@ -8,7 +8,7 @@ My.telegram.org adresinden APP-ID'yi almak için Telegram Telefon Numaranızı +
     AFTER_RECVD_CODE_TEXT = """**Anlıyorum!
 Telegramdan gelen kodu girin!
 
-**bu kod sadece my.telegram.org'dan APP ID'sini almak amacıyla kullanılır!**.
+**bu kod sadece my.telegram.org'dan APP ID'sini almak amacıyla kullanılır!.
 
 /start bilgilerinizi yeniden girmek için**"""
     BEFORE_SUCC_LOGIN = "alınan kod. Web sayfası keskinleştiriliyor ..."
