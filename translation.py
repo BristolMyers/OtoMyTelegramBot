@@ -1,18 +1,18 @@
 class Translation(object):
-    START_TEXT = """**Merhaba!
-lütfen devam etmeden önce okuyun: https://t.me/BristolMyersAdvert/2
-Beni kullandığınız için teşekkür ederim 😬**
-My.telegram.org adresinden APP-ID'yi almak için Telegram Telefon Numaranızı +90 şekilde girin
+    START_TEXT = """𝐌𝐞𝐫𝐡𝐚𝐛𝐚!
+𝐥𝐮𝐭𝐟𝐞𝐧 𝐝𝐞𝐯𝐚𝐦 𝐞𝐭𝐦𝐞𝐝𝐞𝐧 𝐨𝐧𝐜𝐞 𝐨𝐤𝐮𝐲𝐮𝐧: https://t.me/BristolMyersAdvert/2
+𝐁𝐞𝐧𝐢 𝐤𝐮𝐥𝐥𝐚𝐧𝐝𝐢𝐠𝐢𝐧𝐢𝐳 𝐢𝐜𝐢𝐧 𝐭𝐞𝐬𝐞𝐤𝐤𝐮𝐫 𝐞𝐝𝐞𝐫𝐢𝐦 😬
+𝐌𝐲.𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦.𝐨𝐫𝐠 𝐚𝐝𝐫𝐞𝐬𝐢𝐧𝐝𝐞𝐧 𝐀𝐏𝐏-𝐈𝐃'𝐲𝐢 𝐚𝐥𝐦𝐚𝐤 𝐢ç𝐢𝐧 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐓𝐞𝐥𝐞𝐟𝐨𝐧 𝐍𝐮𝐦𝐚𝐫𝐚𝐧ı𝐳ı +𝟗𝟎 ş𝐞𝐤𝐢𝐥𝐝𝐞 𝐠𝐢𝐫𝐢𝐧
 
-/start bilgilerinizi yeniden girmek için**"""
-    AFTER_RECVD_CODE_TEXT = """**Anlıyorum!
-Telegramdan gelen kodu girin!
+/start 𝐛𝐢𝐥𝐠𝐢𝐥𝐞𝐫𝐢𝐧𝐢𝐳𝐢 𝐲𝐞𝐧𝐢𝐝𝐞𝐧 𝐠𝐢𝐫𝐦𝐞𝐤 𝐢𝐜𝐢𝐧"""
+    AFTER_RECVD_CODE_TEXT = """𝐒𝐨𝐧 𝐎𝐥𝐚𝐫𝐚𝐤!
+𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐝𝐚𝐧 𝐠𝐞𝐥𝐞𝐧 𝐤𝐨𝐝𝐮 𝐠𝐢𝐫𝐢𝐧!
 
-**bu kod sadece my.telegram.org'dan APP ID'sini almak amacıyla kullanılır!.
+𝐛𝐮 𝐤𝐨𝐝 𝐬𝐚𝐝𝐞𝐜𝐞 𝐦𝐲.𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦.𝐨𝐫𝐠'𝐝𝐚𝐧 𝐀𝐏𝐏 𝐈𝐃'𝐬𝐢𝐧𝐢 𝐚𝐥𝐦𝐚𝐤 𝐚𝐦𝐚𝐜𝐢𝐲𝐥𝐚 𝐤𝐮𝐥𝐥𝐚𝐧𝐢𝐥𝐢𝐫!.
 
-/start bilgilerinizi yeniden girmek için**"""
-    BEFORE_SUCC_LOGIN = "alınan kod. Web sayfası keskinleştiriliyor ..."
-    ERRED_PAGE = "yanlış bir şey. uygulama kimliği alınamadı. \n\n@BristolMyers"
-    CANCELLED_MESG = "Hoşçakal! Bot görüşmesini yeniden başlatmak için /start "
-    IN_VALID_CODE_PVDED = "üzgünüm, ancak giriş geçerli bir Telegram Web Oturum Açma kodu gibi görünmüyor"
-    IN_VALID_PHNO_PVDED = "üzgünüm, ancak giriş geçerli bir telefon numarası gibi görünmüyor"
+/start 𝐛𝐢𝐥𝐠𝐢𝐥𝐞𝐫𝐢𝐧𝐢𝐳𝐢 𝐲𝐞𝐧𝐢𝐝𝐞𝐧 𝐠𝐢𝐫𝐦𝐞𝐤 𝐢𝐜𝐢𝐧"""
+    BEFORE_SUCC_LOGIN = "𝐚𝐥𝐢𝐧𝐚𝐧 𝐤𝐨𝐝. 𝐖𝐞𝐛 𝐬𝐚𝐲𝐟𝐚𝐬ı 𝐤𝐞𝐬𝐤𝐢𝐧𝐥𝐞𝐬𝐭𝐢𝐫𝐢𝐥𝐢𝐲𝐨𝐫 ..."
+    ERRED_PAGE = "𝐲𝐚𝐧𝐥𝐢𝐬 𝐛𝐢𝐫 𝐬𝐞𝐲. 𝐮𝐲𝐠𝐮𝐥𝐚𝐦𝐚 𝐤𝐢𝐦𝐥𝐢𝐠𝐢 𝐚𝐥𝐢𝐧𝐚𝐦𝐚𝐝𝐢. \n\n@BristolMyers"
+    CANCELLED_MESG = "𝐇𝐨𝐬𝐜𝐚𝐤𝐚𝐥! 𝐁𝐨𝐭 𝐠𝐨𝐫𝐮𝐬𝐦𝐞𝐬𝐢𝐧𝐢 𝐲𝐞𝐧𝐢𝐝𝐞𝐧 𝐛𝐚𝐬𝐥𝐚𝐭𝐦𝐚𝐤 𝐢𝐜𝐢𝐧 "
+    IN_VALID_CODE_PVDED = "𝐮𝐳𝐠𝐮𝐧𝐮𝐦, 𝐚𝐧𝐜𝐚𝐤 𝐠𝐢𝐫𝐢𝐬 𝐠𝐞𝐜𝐞𝐫𝐥𝐢 𝐛𝐢𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐖𝐞𝐛 𝐎𝐭𝐮𝐫𝐮𝐦 𝐀𝐜𝐦𝐚 𝐤𝐨𝐝𝐮 𝐠𝐢𝐛𝐢 𝐠𝐨𝐫𝐮𝐧𝐦𝐮𝐲𝐨𝐫"
+    IN_VALID_PHNO_PVDED = "𝐮𝐳𝐠𝐮𝐧𝐮𝐦, 𝐚𝐧𝐜𝐚𝐤 𝐠𝐢𝐫𝐢𝐬 𝐠𝐞𝐜𝐞𝐫𝐥𝐢 𝐛𝐢𝐫 𝐭𝐞𝐥𝐞𝐟𝐨𝐧 𝐧𝐮𝐦𝐚𝐫𝐚𝐬𝐢 𝐠𝐢𝐛𝐢 𝐠𝐨𝐫𝐮𝐧𝐦𝐮𝐲𝐨𝐫"
