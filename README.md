@@ -66,4 +66,4 @@ my.telegram.org'un nasıl hurdaya çıkarıldığını görmek için dizine bak�
   - [requests](https://github.com/psf/requests)
   - [beautifulsoup4](https://pypi.org/project/beautifulsoup4)
 - Teşekkürler:
-  - [![CopyLeft](https://telegra.ph/file/c066be67408dd240a376a.jpg)]
+  Ahmet DAŞLICA
